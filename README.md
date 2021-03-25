@@ -23,6 +23,7 @@ Please follow the instruction to reproduce my experiments. Note that this projec
  - You can download Cars196 from [Cars196](https://ai.stanford.edu/~jkrause/cars/car_dataset.html).
    Please extract the dataset to `data/cars196/`
 
+## Run
 ### Cars196
 ####  Example: Multi-similarity Loss
     # Train the model
@@ -57,7 +58,6 @@ Please follow the instruction to reproduce my experiments. Note that this projec
     --evaluate
 For other loss functions,  you can replace the config file path in `--reproduce_results`. Alternatives: `exp_configs/car_triplet`, `exp_configs/car_contrast`, `exp_configs/car_margin`.
 
-## Run
 ### CUB2011
 ####  Example: Multi-similarity Loss
 
