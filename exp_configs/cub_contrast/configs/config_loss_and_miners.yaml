@@ -1,0 +1,9 @@
+loss_funcs:
+  metric_loss:
+    ContrastiveLoss:
+      pos_margin: -0.09999999999999726
+      neg_margin: 0.1841191369511769
+sampler:
+  MPerClassSampler:
+    m: 4
+mining_funcs: {}

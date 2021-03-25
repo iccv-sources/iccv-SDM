@@ -1,0 +1,9 @@
+loss_funcs:
+  metric_loss:
+    TripletMarginLoss:
+      triplets_per_anchor: all
+      margin: 0.11902737154413517
+sampler:
+  MPerClassSampler:
+    m: 4
+mining_funcs: {}

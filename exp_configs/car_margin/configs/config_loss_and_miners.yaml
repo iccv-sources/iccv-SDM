@@ -1,0 +1,13 @@
+loss_funcs:
+  metric_loss:
+    MarginLoss:
+      nu: 0
+      triplets_per_anchor: all
+      learn_beta: True
+      num_classes: null
+      margin: 0.07817191774601229
+      beta: 1.3164399965498457
+sampler:
+  MPerClassSampler:
+    m: 4
+mining_funcs: {}
